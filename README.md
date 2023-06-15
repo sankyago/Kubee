@@ -38,17 +38,12 @@ An MQTT bridge lets you connect two MQTT brokers together. We used this to conne
 
   
 
-To start the baseline tutorial environment, navigate to `/Self-managed/mongodb-kafka-base`:
-
-```cd Self-managed/mongodb-kafka-base```
-
-And execute the shell script `run.sh`.
+To start the baseline tutorial environment, execute the shell script `run.sh`.
 
 ```sh run.sh```
 
-Once the environment is running, you can use locally installed tools like MongoSH if you have them installed or use the  MongoDB Kafka Tutorial image.  This image contains tools like MongoSH, KafkaCat and other utilities.
+Once the environment is running, you can use locally installed tools like MongoSH if you have them installed or use the MongoDB Kafka Tutorial image.  This image contains tools like MongoSH, KafkaCat and other utilities.
  
-
 ```docker run --rm --name shell1 --network kafka-edu_localnet -it mongokafkatutorial:latest bash```
 
 ### Stopping the Docker environment
@@ -67,9 +62,9 @@ To start the environment again just execute the `run.sh` shell script
 
 # Quick start data streaming guide:
 
-1. Navigate to the [mongodb-kafka-base](https://github.com/mongodb-industry-solutions/smart-factory/tree/main/shopfloor-data-integration/mongodb-kafka-base) folder
+1. Navigate to the config folder
 
-```cd mongodb-kafka-base```
+```cd config```
 
 2. Execute the shell script which builds your docker container image with all the foundational blocks for this project.
 
