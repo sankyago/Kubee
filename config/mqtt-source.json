@@ -1,0 +1,18 @@
+{
+  "name": "mqtt-source",
+  "config": {
+    "connector.class": "io.confluent.connect.mqtt.MqttSourceConnector",
+    "tasks.max": "1",
+    "mqtt.server.uri": "ssl://5daed856ecd64f859f59a61f71244405.s1.eu.hivemq.cloud:8883",
+    "mqtt.topics": "i/alert",
+    "kafka.topic": "factory",
+    "value.converter": "org.apache.kafka.connect.converters.ByteArrayConverter",
+    "mqtt.username": "streamer",
+    "mqtt.password": "K@y5uai@Kxji5R!",
+    "confluent.topic.bootstrap.servers": "redpanda:9092",
+    "confluent.license": "",
+    "topic.creation.enable": true,
+    "topic.creation.default.replication.factor": -1,
+    "topic.creation.default.partitions": -1
+  }
+}
