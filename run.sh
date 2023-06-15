@@ -56,8 +56,5 @@ docker-compose-down
 To stop and remove the MongoDB database volumes:
 docker-compose-down -v
 
-(Optional) A docker image is avaialble which includes MongoSH shell, KafkaCat, and various utilitiies:
-docker run --rm --name shell1 --network mongodb-kafka-base_localnet -it robwma/mongokafkatutorial:latest bash
-
 ==============================================================================================================
 '''

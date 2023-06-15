@@ -36,15 +36,9 @@ An MQTT bridge lets you connect two MQTT brokers together. We used this to conne
 
 ### Starting the Docker environment
 
-  
-
 To start the baseline tutorial environment, execute the shell script `run.sh`.
 
 ```sh run.sh```
-
-Once the environment is running, you can use locally installed tools like MongoSH if you have them installed or use the MongoDB Kafka Tutorial image.  This image contains tools like MongoSH, KafkaCat and other utilities.
- 
-```docker run --rm --name shell1 --network kafka-edu_localnet -it mongokafkatutorial:latest bash```
 
 ### Stopping the Docker environment
 
