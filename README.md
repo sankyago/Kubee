@@ -1,6 +1,6 @@
 # Collecting Data From the Factory #
 
-In this section you can find all the source code for our data streaming project which aims to collect real-time production data from MQTT devices and insert them into a MongoDB Atlas Time Series Collections.
+In this section you can find all the source code for our data streaming project which aims to collect real-time production data from MQTT devices and insert them into a MongoDB Atlas [Time Series Collections](https://www.mongodb.com/docs/manual/core/timeseries/timeseries-automatic-removal/).
 
 ![](media/architecture.png)
 
@@ -46,9 +46,6 @@ And execute the shell script `run.sh`.
 
 ```sh run.sh```
 
-If you are using a Windows OS, execute the `run.ps1` script a Powershell environment.
-  
-
 Once the environment is running, you can use locally installed tools like MongoSH if you have them installed or use the  MongoDB Kafka Tutorial image.  This image contains tools like MongoSH, KafkaCat and other utilities.
  
 
@@ -67,8 +64,6 @@ The Docker environment can be stopped and remove named volumes like the MongoDB 
 To start the environment again just execute the `run.sh` shell script
 
 `sh run.sh`
-
-> Note: If you are using a Windows OS, execute the `run.ps1` script a Powershell environment.
 
 # Quick start data streaming guide:
 
